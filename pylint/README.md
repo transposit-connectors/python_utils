@@ -21,3 +21,8 @@ Copy the `.pylintrc` file in this repo to your home directory.
 * Commit.
 * Push your code up
 * Reload dev console in your browser, if applicable. *If you don't do this, you'll lose your work next time you touch the code in the dev console.*
+
+
+## Disabling a rule
+
+Due to our nonstandard environment, sometimes you need to disable rules. You can do that by adding to the `disable` key in the `[MASTER]` section. See the .pylintrc for an example.
