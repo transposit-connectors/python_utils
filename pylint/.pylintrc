@@ -46,7 +46,8 @@ unsafe-load-any-extension=no
 
 # https://stackoverflow.com/questions/7877522/how-do-i-disable-missing-docstring-warnings-at-a-file-level-in-pylint
 disable=
-    C0114 # missing-module-docstring
+    C0114, # missing-module-docstring
+    C0121 #  use "is None" rather than "== None". See https://transposit.atlassian.net/browse/TR-5923
 
 
 [MESSAGES CONTROL]
